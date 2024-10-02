@@ -2,20 +2,20 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "Why does the conductor heat up when there's an electric field applied across it?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "Electrons combining with holes",
+        "b": "Electrons bumping into the atoms of conductor",
+        "c": "Because the conductor's charge equillibrium is distrupted",
+        "d": "Both B and C"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "a": "As these electrons move, they constantly collide with the positive ions and other atoms in the conductor. This collision releases heat",
         "b": "Explanation 2",
         "c": "Explanation 2",
         "d": "Explanation 2"
       },
-      "correctAnswer": "a",
+      "correctAnswer": "b",
       "difficulty": "beginner"
     },
     {
