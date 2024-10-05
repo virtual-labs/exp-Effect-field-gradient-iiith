@@ -2,38 +2,71 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "Why does the conductor heat up when there's an electric field applied across it?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "Electrons combining with holes",
+        "b": "Electrons bumping into the atoms of conductor",
+        "c": "Because the conductor's charge equillibrium is distrupted",
+        "d": "Both B and C"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "a": "As these electrons move, they constantly collide with the positive ions and other atoms in the conductor. This collision releases heat",
         "b": "Explanation 2",
         "c": "Explanation 2",
         "d": "Explanation 2"
       },
-      "correctAnswer": "a",
-      "difficulty": "beginner"
+      "correctAnswer": "b",
+      "difficulty": "begmediuminner"
     },
     {
-      "question": "This is a Sample Question 2?",
+      "question": "Semiconductors conduct electricity because?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "Atoms have very few valence electrons",
+        "b": "The valence band of the atoms is almost completely filled",
+        "c": "The valence band of the atoms is partially filled",
+        "d": "Both A and C"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "a": "The valence band of the atoms is partially filled.If the electrons don’t have enough energy to jump across the band gap, the it does not conduct at all, otherwise it does",
         "b": "Explanation 2",
         "c": "Explanation 2",
         "d": "Explanation 2"
       },
       "correctAnswer": "c",
       "difficulty": "beginner"
-    }
+    },
+    {
+      "question": " What is the difference between n-type and p-type semiconductors?",
+      "answers": {
+        "a": " n_type has valence electrons and p-type has no valence electrons",
+        "b": "p_type has valence electrons and n-type has no valence electrons",
+        "c": "p-type is electron rich and n-type is hole rich",
+        "d": "n-type is electron rich and p-type is hole rich"
+      },
+      "explanations": {
+        "a": "N-type semiconductors are obtained by doping with elements that have more valence electrons. P-type semiconductors are obtained by doping with elements that have fewer valence electrons'",
+        "b": "Explanation ",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Why does the charge move from n-type region to p-type region in a diode, even when there's is no applied electric field",
+      "answers": {
+        "a": "Drift of charge",
+        "b": "Diffusion of charge",
+        "c": "Diffusion of charge",
+        "d": "External environment conditions"
+      },
+      "explanations": {
+        "a": "At the junction, some of the free electrons in the n-type wander into the p-type due to diffusion. As they diffuse into the p-type they combine with holes, and cancel each other out.",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "b",
+      "difficulty": "hard"
   ]
 }
