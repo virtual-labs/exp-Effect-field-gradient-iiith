@@ -2,7 +2,7 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "Why does the conductor heat up when there's an electric field applied across it?",
+      "question": "1.Why does the conductor heat up when there's an electric field applied across it?",
       "answers": {
         "a": "Electrons combining with holes",
         "b": "Electrons bumping into the atoms of conductor",
@@ -11,9 +11,9 @@
       },
       "explanations": {
         "a": "As these electrons move, they constantly collide with the positive ions and other atoms in the conductor. This collision releases heat",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "b": "As these electrons move, they constantly collide with the positive ions and other atoms in the conductor. This collision releases heat",
+        "c": "As these electrons move, they constantly collide with the positive ions and other atoms in the conductor. This collision releases heat",
+        "d": "As these electrons move, they constantly collide with the positive ions and other atoms in the conductor. This collision releases heat"
       },
       "correctAnswer": "b",
       "difficulty": "begmediuminner"
@@ -28,9 +28,9 @@
       },
       "explanations": {
         "a": "The valence band of the atoms is partially filled.If the electrons don’t have enough energy to jump across the band gap, the it does not conduct at all, otherwise it does",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "b": "The valence band of the atoms is partially filled.If the electrons don’t have enough energy to jump across the band gap, the it does not conduct at all, otherwise it does",
+        "c": "The valence band of the atoms is partially filled.If the electrons don’t have enough energy to jump across the band gap, the it does not conduct at all, otherwise it does",
+        "d": "The valence band of the atoms is partially filled.If the electrons don’t have enough energy to jump across the band gap, the it does not conduct at all, otherwise it does"
       },
       "correctAnswer": "c",
       "difficulty": "beginner"
@@ -44,10 +44,10 @@
         "d": "n-type is electron rich and p-type is hole rich"
       },
       "explanations": {
-        "a": "N-type semiconductors are obtained by doping with elements that have more valence electrons. P-type semiconductors are obtained by doping with elements that have fewer valence electrons'",
-        "b": "Explanation ",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "N-type semiconductors are obtained by doping with elements that have more valence electrons. P-type semiconductors are obtained by doping with elements that have fewer valence electrons",
+        "b": "N-type semiconductors are obtained by doping with elements that have more valence electrons. P-type semiconductors are obtained by doping with elements that have fewer valence electrons",
+        "c": "N-type semiconductors are obtained by doping with elements that have more valence electrons. P-type semiconductors are obtained by doping with elements that have fewer valence electrons",
+        "d": "N-type semiconductors are obtained by doping with elements that have more valence electrons. P-type semiconductors are obtained by doping with elements that have fewer valence electrons"
       },
       "correctAnswer": "d",
       "difficulty": "beginner"
@@ -62,9 +62,9 @@
       },
       "explanations": {
         "a": "At the junction, some of the free electrons in the n-type wander into the p-type due to diffusion. As they diffuse into the p-type they combine with holes, and cancel each other out.",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "b": "At the junction, some of the free electrons in the n-type wander into the p-type due to diffusion. As they diffuse into the p-type they combine with holes, and cancel each other out.",
+        "c": "At the junction, some of the free electrons in the n-type wander into the p-type due to diffusion. As they diffuse into the p-type they combine with holes, and cancel each other out.",
+        "d": "At the junction, some of the free electrons in the n-type wander into the p-type due to diffusion. As they diffuse into the p-type they combine with holes, and cancel each other out."
       },
       "correctAnswer": "b",
       "difficulty": "hard"

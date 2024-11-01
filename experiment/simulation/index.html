@@ -1,13 +1,54 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<!-- Add CSS at the head of HTML file -->
-    <link rel="stylesheet" href="./css/main.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drift and Diffusion Graph Visualisation</title>
+    <link rel="stylesheet" href="css/styles_grapher.css">
+    <link rel="stylesheet" href="css/basic.css">
+    <!-- Include Chart.js -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 </head>
 <body>
-		<!-- Your code goes here-->
+    <div class="container">
+        <h1>Drift Current Visualisation</h1>
+        <p>
+            <strong>As seen previously,</strong><br>
+            <div class="formula">
+                <b>J<sub>n</sub> = -q<sub>n</sub> ч<sub>n</sub> * E &emsp;for electrons</b>
+            </div>
+            We will be considering the equation for electrons to plot the drift current with respect to electric field.
+        </p>
+        <form id="graph-form1">
+            <label for="charge_number">Enter Charge Density (n) (order of 10<sup>21</sup> C/m<sup>3</sup>):</label>
+            <input type="range" id="charge_number" name="charge_number" min="1" max="100" value="40" oninput="document.getElementById('charge_value').textContent=this.value" required>
+            <span id="charge_value">40</span>
 
-	<!-- Add JS at the bottom of HTML file --> 
-        <script src="./js/main.js"></script>
+            <label for="mobility">Mobility (m) (order of 10<sup>4</sup> m<sup>2</sup>/sV):</label>
+            <input type="range" id="mobility" name="mobility" min="1" max="100" value="33" oninput="document.getElementById('mobility_value').textContent=this.value" required>
+            <span id="mobility_value">33</span>
+            
+            <button type="submit">Generate Drift Graph</button>
+        </form>
+        <canvas id="myChart1"></canvas>
+
+        <h1>Diffusion Current Visualisation</h1>
+        <p>
+            We will plot the diffusion current as a function of the length of the semiconductor to understand its behavior.
+        </p>
+        <form id="graph-form2">
+            <label for="gradient_const">Enter Gradient Constant (n):</label>
+            <input type="range" id="gradient_const" name="gradient_const" min="1" max="100" value="50" oninput="document.getElementById('gradient_value').textContent=this.value" required>
+            <span id="gradient_value">50</span>
+
+            <label for="mobility2">Mobility (m) (order of 10<sup>4</sup> m<sup>2</sup>/sV):</label>
+            <input type="range" id="mobility2" name="mobility2" min="1" max="100" value="33" oninput="document.getElementById('mobility_value2').textContent=this.value" required>
+            <span id="mobility_value2">33</span>
+            
+            <button type="submit">Generate Diffusion Graph</button>
+        </form>
+        <canvas id="myChart2"></canvas>
+    </div>
+    <script src="js/script_grapher.js"></script>
 </body>
 </html>
