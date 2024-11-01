@@ -10,7 +10,24 @@
         "d": "None"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "a": "Mobility is defined as the ratio of velocity of charge and electrical field. It can be thought of as the ease of carrier drift.",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Find the resistivity of given semicondutor where чn=1000, чp=400",
+      "answers": {
+        "a": "0.446 x 10^16",
+        "b": "2.8 x 10^-16",
+        "c": "1.4 x 10^-16",
+        "d": "2.24 x 10^16"
+      },
+      "explanations": {
+        "a": "Calculate using- \n Jn = -qnчn * E \n Jp = -qnчp * E \n J = Jn + Jp \n J = E/ρ where ρ is resistivity.",
         "b": "Explanation 2",
         "c": "Explanation 2",
         "d": "Explanation 2"
@@ -19,20 +36,37 @@
       "difficulty": "beginner"
     },
     {
-      "question": "This is a Sample Question 2?",
+      "question": "Select statement if it's true",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "Diffusion is the partical movement in response to concentration gradient.",
+        "b": "Diffusion Flux is proportional to the square of concentration gradient.",
+        "c": "Diffusion process occurs in a semiconductor that is non-uniformly doped.",
+        "d": "Both A and C."
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "a": "Diffusion is particle movement (flux) in response to a concentration gradient. Diffusion process occurs in a semiconductor that is non-uniformly doped. The overall result is to erase the charge gradient.",
         "b": "Explanation 2",
         "c": "Explanation 2",
         "d": "Explanation 2"
       },
-      "correctAnswer": "c",
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Find the value of total diffusion at x=5 when Dn=Dp=5.13 and n = 3 * x^2",
+      "answers": {
+        "a": "152.79",
+        "b": "153.9",
+        "c": "174.29",
+        "d": "176.59"
+      },
+      "explanations": {
+        "a": "Calculate using- \n Jn = -qDn * (dn/dx) \nJp = -Dp * (dn/dx) \n Jtotal = Jp + Jn",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "b",
       "difficulty": "beginner"
     }
   ]
