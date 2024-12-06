@@ -1,5 +1,5 @@
 # Drift
-When an electric field is applied across a doped semiconductor, charge carriers (electrons or holes) begin to move in the direction of the electric field, although they undergo random collisions due to interactions with vibrating silicon atoms (Brownian motion). The net velocity, however, is directed along the electric field.
+Electrons in a doped semiconductor begin to move when electric field is applied across it. Electrons, being negatively charged, move in the direction opposite to the electric field, while holes, being positively charged, move in the direction of the electric field. As they are moving, they undergo collisions with vibrating Si atoms. This makes their movement unpredictable, haphazard (similar to Brownian motion of gas particles). However, the net velocity of each charge carrier is along the electric field.Therefore, the velocity can be modeled as:
 
 Drift Velocity Formulas
 <p align="center"><b>
@@ -14,9 +14,9 @@ Where:
 ### Drift Current Density
 The drift current density depends on the velocity, density, and charge of the carriers:
 <p align="center"><b>
-J<sub>n</sub> = -q<sub>n</sub> * v<sub>d</sub> = -q<sub>n</sub> * ч<sub>n</sub> * E</b> (For electrons)</p>
+J<sub>n</sub> = -q<sub>n</sub> * vd<sub>n</sub> = -q<sub>n</sub> * ч<sub>n</sub> * E</b> (For electrons)</p>
 <p align="center"><b>
-J<sub>p</sub> = -q<sub>p</sub> * v<sub>d</sub> = -q<sub>p</sub> * ч<sub>p</sub> * E </b>(For holes)</p>
+J<sub>p</sub> = -q<sub>p</sub> * vd<sub>p</sub> = -q<sub>p</sub> * ч<sub>p</sub> * E </b>(For holes)</p>
 The total drift current density:
 <p align="center"><b>
 J<sub>drift</sub> = J<sub>n</sub> + J<sub>p</sub></b></p>
@@ -38,7 +38,7 @@ The diffusion flux is proportional to the concentration gradient:
 <p align="center"><b>
 F<sub>n</sub> = -D<sub>n</sub> * (dn/dx)</b> (For electrons)</p>
 <p align="center"><b>
-F<sub>p</sub> = -D<sub>p</sub> * (dn/dx)</b>(For holes)</p>
+F<sub>p</sub> = -D<sub>p</sub> * (dp/dx)</b>(For holes)</p>
 Where:
 
 <b>D</b> is the diffusion <br>
