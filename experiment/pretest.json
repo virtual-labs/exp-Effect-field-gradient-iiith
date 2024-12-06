@@ -5,67 +5,48 @@
       "question": "1.Why does the conductor heat up when there's an electric field applied across it?",
       "answers": {
         "a": "Electrons combining with holes",
-        "b": "Electrons bumping into the atoms of conductor",
-        "c": "Because the conductor's charge equillibrium is distrupted",
+        "b": "The electric field causes electrons to stop moving, generating heat",
+        "c": " Collisions between electrons and lattice atoms convert electrical energy into heat.",
         "d": "Both B and C"
       },
-      "explanations": {
-        "a": "As these electrons move, they constantly collide with the positive ions and other atoms in the conductor. This collision releases heat",
-        "b": "As these electrons move, they constantly collide with the positive ions and other atoms in the conductor. This collision releases heat",
-        "c": "As these electrons move, they constantly collide with the positive ions and other atoms in the conductor. This collision releases heat",
-        "d": "As these electrons move, they constantly collide with the positive ions and other atoms in the conductor. This collision releases heat"
-      },
+      "explanation": {
+        "As these electrons move, they constantly collide with the positive ions and other atoms in the conductor. This collision releases heat"},
       "correctAnswer": "b",
-      "difficulty": "begmediuminner"
+      "difficulty": "beginner"
     },
     {
-      "question": "Semiconductors conduct electricity because?",
+      "question": "Extrinsic Semiconductors conduct electricity because?",
       "answers": {
         "a": "Atoms have very few valence electrons",
         "b": "The valence band of the atoms is almost completely filled",
         "c": "The valence band of the atoms is partially filled",
         "d": "Both A and C"
       },
-      "explanations": {
-        "a": "The valence band of the atoms is partially filled.If the electrons don’t have enough energy to jump across the band gap, the it does not conduct at all, otherwise it does",
-        "b": "The valence band of the atoms is partially filled.If the electrons don’t have enough energy to jump across the band gap, the it does not conduct at all, otherwise it does",
-        "c": "The valence band of the atoms is partially filled.If the electrons don’t have enough energy to jump across the band gap, the it does not conduct at all, otherwise it does",
-        "d": "The valence band of the atoms is partially filled.If the electrons don’t have enough energy to jump across the band gap, the it does not conduct at all, otherwise it does"
-      },
+      "explanation": {"The valence band of the atoms is partially filled.If the electrons don’t have enough energy to jump across the band gap, the it does not conduct at all, otherwise it does"},
       "correctAnswer": "c",
       "difficulty": "beginner"
     },
     {
       "question": " What is the difference between n-type and p-type semiconductors?",
       "answers": {
-        "a": " n_type has valence electrons and p-type has no valence electrons",
-        "b": "p_type has valence electrons and n-type has no valence electrons",
-        "c": "p-type is electron rich and n-type is hole rich",
-        "d": "n-type is electron rich and p-type is hole rich"
+        "a": "n-type semiconductors have valence electrons as majority charge carriers, while p-type semiconductors have no valence electrons",
+        "b": "p-type semiconductors have valence electrons as majority charge carriers, while n-type semiconductors have no valence electrons.",
+        "c": "p-type semiconductors are electron-rich with electrons as majority charge carriers, while n-type semiconductors are hole-rich with holes as majority charge carriers.",
+        "d": "n-type semiconductors are electron-rich with electrons as majority charge carriers, while p-type semiconductors are hole-rich with holes as majority charge carriers."
       },
-      "explanations": {
-        "a": "N-type semiconductors are obtained by doping with elements that have more valence electrons. P-type semiconductors are obtained by doping with elements that have fewer valence electrons",
-        "b": "N-type semiconductors are obtained by doping with elements that have more valence electrons. P-type semiconductors are obtained by doping with elements that have fewer valence electrons",
-        "c": "N-type semiconductors are obtained by doping with elements that have more valence electrons. P-type semiconductors are obtained by doping with elements that have fewer valence electrons",
-        "d": "N-type semiconductors are obtained by doping with elements that have more valence electrons. P-type semiconductors are obtained by doping with elements that have fewer valence electrons"
-      },
+      "explanation": { "N-type semiconductors are obtained by doping with elements that have more valence electrons. P-type semiconductors are obtained by doping with elements that have fewer valence electrons"},
       "correctAnswer": "d",
       "difficulty": "beginner"
     },
     {
-      "question": "Why does the charge move from n-type region to p-type region in a diode, even when there's is no applied electric field",
+      "question": "Why does the charge move between n-type region to p-type region in a diode, even when there's is no applied electric field",
       "answers": {
         "a": "Drift of charge",
         "b": "Diffusion of charge",
-        "c": "Diffusion of charge",
+        "c": " Change in temperature",
         "d": "External environment conditions"
       },
-      "explanations": {
-        "a": "At the junction, some of the free electrons in the n-type wander into the p-type due to diffusion. As they diffuse into the p-type they combine with holes, and cancel each other out.",
-        "b": "At the junction, some of the free electrons in the n-type wander into the p-type due to diffusion. As they diffuse into the p-type they combine with holes, and cancel each other out.",
-        "c": "At the junction, some of the free electrons in the n-type wander into the p-type due to diffusion. As they diffuse into the p-type they combine with holes, and cancel each other out.",
-        "d": "At the junction, some of the free electrons in the n-type wander into the p-type due to diffusion. As they diffuse into the p-type they combine with holes, and cancel each other out."
-      },
+      "explanation": {"At the junction, some of the free electrons in the n-type wander into the p-type due to diffusion. As they diffuse into the p-type they combine with holes, and cancel each other out."},
       "correctAnswer": "b",
       "difficulty": "hard"
     }
