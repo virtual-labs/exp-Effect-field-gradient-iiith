@@ -1,54 +1,63 @@
+
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Drift and Diffusion Graph Visualisation</title>
-    <link rel="stylesheet" href="css/styles_grapher.css">
-    <link rel="stylesheet" href="css/basic.css">
-    <!-- Include Chart.js -->
-    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <!-- Add CSS at the head of HTML file -->
+    <link rel="stylesheet" href="./css/grapher.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/virtual-labs/virtual-style@0.0.8-b/css/style.min.css">
 </head>
 <body>
-    <div class="container">
-        <h1>Drift Current Visualisation</h1>
-        <p>
-            <strong>As seen previously,</strong><br>
-            <div class="formula">
-                <b>J<sub>n</sub> = -q<sub>n</sub> ч<sub>n</sub> * E &emsp;for electrons</b>
+    <!-- Instructions Section -->
+    <div class="columns is-centered">
+        <div class="column">
+            <div class="v-instruction-container">
+                <div class="v-collapsible is-size-5" id="task-description">
+                    Instructions
+                </div>
+                <div class="v-content instruction-list">
+                    <ul style="list-style: disc;">
+                        <li>Given below are drift and diffusion plots for two mobility values.</li>
+                        <li>"a" denotes mobility1, "b" denotes mobility2.</li>
+                        <li>Your job is to type the correct values of mobility for each plot in both Drift and Diffusion sections</li>
+                        <li>Click "Submit" to check if the labeling is correct.</li>
+                    </ul>
+                </div>
             </div>
-            We will be considering the equation for electrons to plot the drift current with respect to electric field.
-        </p>
-        <form id="graph-form1">
-            <label for="charge_number">Enter Charge Density (n) (order of 10<sup>21</sup> C/m<sup>3</sup>):</label>
-            <input type="range" id="charge_number" name="charge_number" min="1" max="100" value="40" oninput="document.getElementById('charge_value').textContent=this.value" required>
-            <span id="charge_value">40</span>
-
-            <label for="mobility">Mobility (m) (order of 10<sup>4</sup> m<sup>2</sup>/sV):</label>
-            <input type="range" id="mobility" name="mobility" min="1" max="100" value="33" oninput="document.getElementById('mobility_value').textContent=this.value" required>
-            <span id="mobility_value">33</span>
-            
-            <button type="submit">Generate Drift Graph</button>
-        </form>
-        <canvas id="myChart1"></canvas>
-
-        <h1>Diffusion Current Visualisation</h1>
-        <p>
-            We will plot the diffusion current as a function of the length of the semiconductor to understand its behavior.
-        </p>
-        <form id="graph-form2">
-            <label for="gradient_const">Enter Gradient Constant (n):</label>
-            <input type="range" id="gradient_const" name="gradient_const" min="1" max="100" value="50" oninput="document.getElementById('gradient_value').textContent=this.value" required>
-            <span id="gradient_value">50</span>
-
-            <label for="mobility2">Mobility (m) (order of 10<sup>4</sup> m<sup>2</sup>/sV):</label>
-            <input type="range" id="mobility2" name="mobility2" min="1" max="100" value="33" oninput="document.getElementById('mobility_value2').textContent=this.value" required>
-            <span id="mobility_value2">33</span>
-            
-            <button type="submit">Generate Diffusion Graph</button>
-        </form>
-        <canvas id="myChart2"></canvas>
+        </div>
     </div>
-    <script src="js/script_grapher.js"></script>
+
+    <div class="columns is-flex-direction-row is-flex-wrap-wrap centered-div custom-container">
+        <!-- First Plot Section -->
+        <div class="column is-6-desktop is-12-tablet is-12-mobile">
+            <div class="v-datalist-container" style="height:100%">
+                <div class="v-datalist-title">Drift Plot</div>
+                <div id="function-plot1" class="v-datalist-row center-content" style="height: 400px; position: relative;">
+                    <canvas id="plot1" style="width:100%; height:80%;"></canvas>
+                    <input id="plot-input1" class="input-overlay input-overlay2" type="text" placeholder="Type here" />
+                    <input id="plot-input2" class="input-overlay input-overlay3" type="text" placeholder="Type here" />
+                </div>
+            </div>
+        </div>
+
+        <!-- Second Plot Section -->
+        <div class="column is-6-desktop is-12-tablet is-12-mobile">
+            <div class="v-datalist-container" style="height:100%">
+                <div class="v-datalist-title">Diffusion Plot</div>
+                <div id="function-plot2" class="v-datalist-row center-content" style="height: 400px; position: relative;">
+                    <canvas id="plot2" style="width:100%; height:80%;"></canvas>
+                    <input id="plot-input3" class="input-overlay input-overlay4" type="text" placeholder="Type here" />
+                    <input id="plot-input4" class="input-overlay input-overlay5" type="text" placeholder="Type here" />
+                </div>
+            </div>
+        </div>
+        <div class="submit-quiz">
+            <button type="button" class="button is-primary" id="submit-btn">Submit</button>
+        </div>
+        <div id="result-message" style="display: none; text-align: center; font-size: 1.5em; margin-top: 20px; width: 100%;"></div>  
+        <button type="button" id="nextPage" class="button is-primary" onclick="location.href='grapher.html'">Next Page</button> 
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="js/grapher.js"></script>
 </body>
 </html>
