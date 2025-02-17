@@ -1,1 +1,3 @@
 ### Procedure
+In the first task, the user is given two plots of drift current and two plots of diffusion current with different mobility. The higher mobility is denoted by "a" and the lower mobility is denoted by "b". The user has to label each of the plots with their respective mobilty.<br>
+In the second task, there are interactive plots of drift and diffusion and the user can see how different parameters effect drift and diffrusion plots.
