@@ -53,4 +53,4 @@ The total diffusion current density:
 <p align="center"><b>
 J<sub>diff</sub> = J<sub>n</sub> + J<sub>p</sub></b></p>
 
-<img src="images/1.png" width=400 height=300>
+<img src="images/1.png" width="400" height="300" align="center">
