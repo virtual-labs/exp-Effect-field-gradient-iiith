@@ -1,0 +1,3 @@
+### Aim of the experiment
+ Carrier motion under non-equilibrium conditions in the semiconductor is determined by carrier concentration gradient as well as applied electric field. Current flow in semiconductor is a function of material property (carrier concentration, mobility, diffusivity) as well as externally applied voltage/electric field and carrier concentration gradient. This set of virtual labs will help the student learn- how current is affected if any of the
+ input or external parameters is changed. Students will learn about the carrier drift and diffusion current in semiconductor including small minority carrier injection.

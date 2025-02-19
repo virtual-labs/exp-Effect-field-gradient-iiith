@@ -1,0 +1,13 @@
+
+/home/runner/work/exp-Effect-field-gradient-iiith/exp-Effect-field-gradient-iiith/experiment/simulation/js/grapher.js
+  22:5  warning  'Chart' is not defined  no-undef
+  64:5  warning  'Chart' is not defined  no-undef
+
+/home/runner/work/exp-Effect-field-gradient-iiith/exp-Effect-field-gradient-iiith/experiment/simulation/js/script_grapher.js
+  21:36  warning  'Chart' is not defined  no-undef
+  26:27  warning  'Chart' is not defined  no-undef
+  84:36  warning  'Chart' is not defined  no-undef
+  89:27  warning  'Chart' is not defined  no-undef
+
+✖ 6 problems (0 errors, 6 warnings)
+

@@ -1,0 +1,134 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    background-color: #f4f4f4;
+}
+
+.sidebar {
+    width: 250px;
+    background-color: #333;
+    padding-top: 20px;
+    position: fixed;
+    height: 100%;
+}
+
+.sidebar h2 {
+    color: white;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    padding: 10px;
+    text-align: center;
+}
+
+.sidebar ul li a {
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+
+.sidebar ul li a:hover {
+    background-color: #6d6969;
+}
+
+.content {
+    margin-left: 220px;
+    padding: 150px;
+    width: calc(100% - 220px);
+    background-color: #fff;
+    min-height: 100vh;
+}
+
+canvas {
+    margin-top: 20px;
+    max-width: 100%;
+}
+
+span {
+    font-weight: bold;
+    margin-left: 10px;
+    color: #333;
+}
+
+.container {
+    margin-left: 20%;
+    padding: 10%;
+    min-height: 100vh;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    max-width: 70%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+h1 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Media Queries for Responsive Design */
+@media (max-width: 1024px) {
+    /* Adjust for tablets */
+    .sidebar {
+        width: 200px;
+    }
+
+    .content {
+        margin-left: 200px;
+        padding: 100px;
+        width: calc(100% - 200px);
+    }
+
+    .container {
+        margin-left: 10%;
+        max-width: 80%;
+    }
+}
+
+@media (max-width: 768px) {
+    /* Adjust for large phones/small tablets */
+    .sidebar {
+        width: 150px;
+    }
+
+    .content {
+        margin-left: 150px;
+        padding: 80px;
+        width: calc(100% - 150px);
+    }
+
+    .container {
+        margin-left: 5%;
+        max-width: 90%;
+        padding: 8%;
+    }
+}
+
+@media (max-width: 480px) {
+    /* Adjust for phones */
+    .sidebar {
+        width: 100px;
+    }
+
+    .content {
+        margin-left: 100px;
+        padding: 50px;
+        width: calc(100% - 100px);
+    }
+
+    .container {
+        margin-left: 5%;
+        max-width: 95%;
+        padding: 5%;
+    }
+}

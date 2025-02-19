@@ -1,0 +1,69 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "Mobility is defined as- ",
+      "answers": {
+        "a": "Velocity of charge carriers",
+        "b": "Strength of the electric field",
+        "c": "The ratio of velocity of charge and electrical field",
+        "d": "None"
+      },
+      "explanations": 
+      {"a": "Mobility is defined as the ratio of velocity of charge and electrical field. It can be thought of as the ease of carrier drift.",
+        "b": "Mobility is defined as the ratio of velocity of charge and electrical field. It can be thought of as the ease of carrier drift.",
+        "c": "Mobility is defined as the ratio of velocity of charge and electrical field. It can be thought of as the ease of carrier drift.",
+        "d": "Mobility is defined as the ratio of velocity of charge and electrical field. It can be thought of as the ease of carrier drift."},
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Find the resistivity of given semicondutor where чn=1000, чp=400 assume E=1",
+      "answers": {
+        "a": "0.446 x 10^16",
+        "b": "2.8 x 10^-16",
+        "c": "1.4 x 10^-16",
+        "d": "2.24 x 10^16"
+      },
+      "explanations": 
+      {"a": "Calculate using- \n Jn = -qnчn * E \n Jp = -qnчp * E \n J = Jn + Jp \n J = E/ρ where ρ is resistivity.",
+        "b": "Calculate using- \n Jn = -qnчn * E \n Jp = -qnчp * E \n J = Jn + Jp \n J = E/ρ where ρ is resistivity.",
+        "c": "Calculate using- \n Jn = -qnчn * E \n Jp = -qnчp * E \n J = Jn + Jp \n J = E/ρ where ρ is resistivity.",
+        "d": "Calculate using- \n Jn = -qnчn * E \n Jp = -qnчp * E \n J = Jn + Jp \n J = E/ρ where ρ is resistivity."},
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Select statement if it's true",
+      "answers": {
+        "a": "Diffusion is the partical movement in response to concentration gradient.",
+        "b": "Diffusion Flux is proportional to the square of concentration gradient.",
+        "c": "Diffusion process occurs in a semiconductor that is non-uniformly doped.",
+        "d": "Both A and C."
+      },
+      "explanations": 
+      {"a": "Diffusion is particle movement (flux) in response to a concentration gradient. Diffusion process occurs in a semiconductor that is non-uniformly doped. The overall result is to erase the charge gradient.",
+        "b": "Diffusion is particle movement (flux) in response to a concentration gradient. Diffusion process occurs in a semiconductor that is non-uniformly doped. The overall result is to erase the charge gradient.",
+        "c": "Diffusion is particle movement (flux) in response to a concentration gradient. Diffusion process occurs in a semiconductor that is non-uniformly doped. The overall result is to erase the charge gradient.",
+        "d": "Diffusion is particle movement (flux) in response to a concentration gradient. Diffusion process occurs in a semiconductor that is non-uniformly doped. The overall result is to erase the charge gradient."},
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Find the value of total diffusion at x=5 when Dn=Dp=5.13 and n = 3 * x^2",
+      "answers": {
+        "a": "152.79",
+        "b": "153.9",
+        "c": "174.29",
+        "d": "176.59"
+      },
+      "explanations": 
+      {"a":"Calculate using- \n Jn = -qDn * (dn/dx) \nJp = -Dp * (dn/dx) \n Jtotal = Jp + Jn",
+        "b":"Calculate using- \n Jn = -qDn * (dn/dx) \nJp = -Dp * (dn/dx) \n Jtotal = Jp + Jn",
+        "c":"Calculate using- \n Jn = -qDn * (dn/dx) \nJp = -Dp * (dn/dx) \n Jtotal = Jp + Jn",
+        "d":"Calculate using- \n Jn = -qDn * (dn/dx) \nJp = -Dp * (dn/dx) \n Jtotal = Jp + Jn"},
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    }
+  ]
+}
