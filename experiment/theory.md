@@ -52,3 +52,5 @@ J<sub>p</sub> = q * D<sub>p</sub> * (dp/dx)</b>(For holes)</p>
 The total diffusion current density:
 <p align="center"><b>
 J<sub>diff</sub> = J<sub>n</sub> + J<sub>p</sub></b></p>
+
+<img src="images/1.png">
