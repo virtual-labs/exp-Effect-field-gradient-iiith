@@ -144,12 +144,12 @@ function validateInputs() {
     {
         if (y == 0){
             resultMessage.style.display = 'block';
-            resultMessage.textContent = 'Inorrect';
+            resultMessage.textContent = 'Inorrect. Drift and diffusion have a direct correlation with mobility. Higher mobility leads to higher rates of drift and diffusion.';
             resultMessage.style.color = 'red';
         }
         else{
             resultMessage.style.display = 'block';
-            resultMessage.textContent = 'Drift is incorrect, diffusion is correct';
+            resultMessage.textContent = 'Drift is incorrect, diffusion is correct.  If the mobility (μ) is high, the drift velocity (v<sub>d</sub>)will be higher for a given electric field (E). Charge carriers can move more freely with less resistance, resulting in faster drift.If the mobility is low, the drift velocity will be lower for the same electric field. Charge carriers experience more scattering and move more slowly.';
             resultMessage.style.color = 'orange';
         }
     }
