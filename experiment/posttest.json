@@ -18,7 +18,7 @@
       "difficulty": "beginner"
     },
     {
-      "question": "Find the resistivity of given semicondutor where чn=1000, чp=400",
+      "question": "Find the resistivity of given semicondutor where чn=1000, чp=400 assume E=1",
       "answers": {
         "a": "0.446 x 10^16",
         "b": "2.8 x 10^-16",
