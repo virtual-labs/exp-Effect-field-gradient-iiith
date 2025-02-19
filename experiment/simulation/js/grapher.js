@@ -136,7 +136,7 @@ function validateInputs() {
         }
         else{
             resultMessage.style.display = 'block';
-            resultMessage.textContent = 'Drift is correct, diffusion is incorrect';
+            resultMessage.textContent = 'Drift is correct, diffusion is incorrect. If the mobility (μ) of charge carriers is high, the diffusion coefficient will also be high, according to the Einstein relation. This means carriers will diffuse more quickly through the material. And lower mobility means the rate of diffusion will be lower.';
             resultMessage.style.color = 'orange';
         }
     }
