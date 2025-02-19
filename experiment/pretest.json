@@ -6,15 +6,15 @@
       "answers": {
         "a": "Electrons combining with holes",
         "b": "The electric field causes electrons to stop moving, generating heat",
-        "c": " Collisions between electrons and lattice atoms convert electrical energy into heat.",
+        "c": "Collisions between electrons and lattice atoms convert electrical energy into heat.",
         "d": "Both B and C"
       },
       "explanations": 
-      {"a": "When an electric field is applied, free electrons in the conductor accelerate, gaining kinetic energy.As these electrons move, they frequently collide with the vibrating atoms (or ions) in the crystal lattice.During these collisions, the electrons lose energy, transferring it to the lattice atoms, causing them to vibrate more.The increased vibration of lattice atoms is manifested as heat, leading to a temperature rise in the conductor.This phenomenon is known as resistive heating or Joule heating",
-        "b": "When an electric field is applied, free electrons in the conductor accelerate, gaining kinetic energy.As these electrons move, they frequently collide with the vibrating atoms (or ions) in the crystal lattice.During these collisions, the electrons lose energy, transferring it to the lattice atoms, causing them to vibrate more.The increased vibration of lattice atoms is manifested as heat, leading to a temperature rise in the conductor.This phenomenon is known as resistive heating or Joule heating",
-        "c": "When an electric field is applied, free electrons in the conductor accelerate, gaining kinetic energy.As these electrons move, they frequently collide with the vibrating atoms (or ions) in the crystal lattice.During these collisions, the electrons lose energy, transferring it to the lattice atoms, causing them to vibrate more.The increased vibration of lattice atoms is manifested as heat, leading to a temperature rise in the conductor.This phenomenon is known as resistive heating or Joule heating",
-        "d": "When an electric field is applied, free electrons in the conductor accelerate, gaining kinetic energy.As these electrons move, they frequently collide with the vibrating atoms (or ions) in the crystal lattice.During these collisions, the electrons lose energy, transferring it to the lattice atoms, causing them to vibrate more.The increased vibration of lattice atoms is manifested as heat, leading to a temperature rise in the conductor.This phenomenon is known as resistive heating or Joule heating"},
-      "correctAnswer": "b",
+      {"a": "This is incorrect because the concept of electrons combining with holes is related to semiconductor physics, specifically in the context of electron-hole recombination. In a conductor, there are no holes in the valence band because conductors have free electrons in the conduction band. The heating of a conductor due to an electric field is not related to electron-hole recombination.",
+        "b": "This is incorrect because the electric field does not cause electrons to stop moving. On the contrary, the electric field accelerates electrons, causing them to move through the conductor. The heat is generated due to the collisions of these moving electrons with the lattice atoms, not because the electrons stop moving.",
+        "c": "This is correct because, when an electric field is applied, free electrons in the conductor accelerate, gaining kinetic energy.As these electrons move, they frequently collide with the vibrating atoms (or ions) in the crystal lattice.During these collisions, the electrons lose energy, transferring it to the lattice atoms, causing them to vibrate more.The increased vibration of lattice atoms is manifested as heat, leading to a temperature rise in the conductor.This phenomenon is known as resistive heating or Joule heating",
+        "d": "option 'b' is incorrect so this cannot be correct"},
+      "correctAnswer": "c",
       "difficulty": "beginner"
     },
     {
