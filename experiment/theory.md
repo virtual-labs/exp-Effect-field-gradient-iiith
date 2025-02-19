@@ -14,7 +14,7 @@ Where:
 ### Drift Current Density
 The drift current density depends on the velocity, density, and charge of the carriers:
 <p align="center"><b>
-J<sub>n</sub> = -q<sub>n</sub> * vd<sub>n</sub> = (-q<sub>n</sub> * -ч<sub>n</sub>) * E</b>  = q<sub>n</sub> * ч<sub>p</sub> * E(For electrons)</p>
+J<sub>n</sub> = -q<sub>n</sub> * vd<sub>n</sub> = (-q<sub>n</sub> * -ч<sub>n</sub>) * E  = q<sub>n</sub> * ч<sub>p</sub> * E </b> (For electrons)</p>
 <p align="center"><b>
 J<sub>p</sub> = q<sub>p</sub> * vd<sub>p</sub> = q<sub>p</sub> * ч<sub>p</sub> * E </b>(For holes)</p>
 The total drift current density:
@@ -48,7 +48,7 @@ Therefore the diffusion Current Density will be:
 <p align="center"><b>
 J<sub>n</sub> = -q * D<sub>n</sub> * (dn/dx)</b> (For electrons)</p>
 <p align="center"><b>
-J<sub>p</sub> = -q * D<sub>p</sub> * (dp/dx)</b>(For holes)</p>
+J<sub>p</sub> = q * D<sub>p</sub> * (dp/dx)</b>(For holes)</p>
 The total diffusion current density:
 <p align="center"><b>
 J<sub>diff</sub> = J<sub>n</sub> + J<sub>p</sub></b></p>
